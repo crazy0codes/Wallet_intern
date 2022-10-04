@@ -29,9 +29,6 @@
     padding-left: 24px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.wallet-transcation-details {
-
-}
 .name {
     width: 30%;
 }
@@ -40,9 +37,6 @@
 }
 .date {
     width: 10%;
-}
-table {
-    
 }
 .Madas {
     background-color: blue;
@@ -88,4 +82,19 @@ table {
 }
 small {
     font-size: 14px;
+}
+.modal {
+    width: 40%;
+    height: 30%;
+    background-color: rgb(189, 28, 28);
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
 }

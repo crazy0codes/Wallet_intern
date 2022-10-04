@@ -13,11 +13,10 @@
 </head>
 <body id="body">
     <div class="wallet">
-        <div class="wallet-balance">
-            ₹1,212.
-            <br><small>Your wallet balance.</small>
+        <div class="wallet-balance" id="wallet-balance">
+            $1,247 <br><small>Your wallet balance</small>
         </div>
-        <div class="wallet-add-icon" id="btn-add" onclick="change()">
+        <div class="wallet-add-icon" id="btn-add" onclick="add()">
             <span class="material-icons"  >
                 add_circle_outline
             </span>
@@ -39,6 +38,16 @@
                 <td>Madhan</td><td>lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque soluta illum corporis at officia, maiores, recusandae vitae laboriosam necessitatibus dolor reiciendis animi quasi, quas nam neque quo fuga nesciunt tempora? </td><td>26/11/2003</td>
             </tr>
         </table>
+    </div>
+    <div class="modal" id="modal">
+        <form action="/index.js">
+            <label for="amount"></label>
+            Amount
+            <input type="number" name="amount"><br>
+            <label for="bank"></label><br>
+            Bank
+            <input type="text" name="bank">
+        </form>
     </div>
     <script src="/index.js"></script>
 </body>
