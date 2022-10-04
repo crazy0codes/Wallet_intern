@@ -14,7 +14,7 @@
     justify-content: center;
     height: 60px;
     background-color: orange;
-    width: 35%;
+    width: 50%;
     max-width: 200px;
     border-radius: 44px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -27,9 +27,6 @@
     font-size: 23px;
     padding-left: 24px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-small {
-    font-size: 16px;
 }
 .wallet-transcation-details {
 
