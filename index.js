@@ -8,3 +8,4 @@ function add() {
       document.getElementById('modal').style.display = "none"
     }
 }
+document.getElementsByName('amount').value = "Madhan"

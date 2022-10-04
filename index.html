@@ -26,11 +26,9 @@
     <div class="wallet-details">Transcation Details</div>
     <div class="wallet-transcation-details">
         <table>
-            <th>
-                <tr>
-                    <td class="name">Name</td><td class="transaction">Transcation</td><td class="status">status</td><td class="date">Details</td>
-                </tr>
-            </th>
+            <tr>
+                <td class="name">Name</td><td class="transaction">Transcation</td><td class="status">status</td><td class="date">Details</td>
+            </tr>
             <tr>
                 <td>Elon</td><td>Successful</td><td>Completed</td><td>26/11/2022</td>
             </tr>
@@ -42,12 +40,15 @@
     <div class="modal" id="modal">
         <span class="modal-dismiss" onclick="dismiss()" role="button">x</span>
         <form action="index.php" method="post">
-            <label for="amount">Amount</label><br>
+            <label for="amount">Amount</label>
             <input type="number" name="amount"><br>
-            <label for="bank">Bank</label><br>
+            <label for="bank">UPI ID</label><br>
             <input type="text" name="bank"><br><br>
-            <input type="submit" name="submit" class="submit">
+            <button type="submit" class="submit" name="submit">pay here<span class="ball"><span class="material-icons" id="arrow">
+                arrow_forward
+                </span></span></button>
         </form>
+        <samll class="terms" >By clicking pay. I am agree with <a href="google.com ">Terms&Policy</a></samll>
     </div>
 
 

@@ -17,8 +17,10 @@
     background-color: rgb(80, 255, 80);
     width: 50%;
     max-width: 200px;
-    border-radius: 44px;
+    border-radius: 60px;
     padding-right: 14px;
+    border-top: 0.5px solid white;
+    border-right: 0.5px solid rgb(255, 255, 255);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .wallet-details {
@@ -27,21 +29,10 @@
     height: 54px;
     font-weight: 600;
     font-size: 23px;
-    padding-left: 24px;
+    padding-left: 4px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.name {
-    width: 25%;
-}
-.transaction {
-    width: 25%;
-}
-.date {
-    width: 25%;
-}
-.status {
-    width: 25%;
-}
+.name,.status,
 .name,.transaction,.date,.status {
     background-color:rgb(0, 215, 239);
     font-size: 23px;
@@ -53,6 +44,7 @@
 .wallet-balance {
     padding-left: 30px;
     font-size: 25px;
+    font-weight: 500;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .material-icons {
@@ -85,17 +77,19 @@ small {
     font-size: 14px;
 }
 .modal {
-    width: 40%;
-    min-width: 205px;
+    width: 205px;
     height: 205px;
-    background-color: rgba(29, 158, 172, 0.936);
-    color: white;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    outline-color: 0.5px solid rgb(214, 214, 214);
+    border-color: 0.5px solid rgb(214, 214, 214);
+    border-style: solid;
+    border-width: 1px;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     padding: 10px;
-    max-width: 299px;
 }
 .modal-dismiss {
     padding-left: 90%;
@@ -103,7 +97,6 @@ small {
     padding-right: 20px;
     cursor: pointer;
 }
-
 form {
     padding-left: 10%;
     padding-right: 20%;
@@ -114,4 +107,56 @@ form {
     font-size: 20px;
 }
 .submit {
+    position: relative;
+    height: 60px;
+    background-color: lightgreen;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    border: 0.5px solid white;
+    padding-left: 40px;
+    transition: 0.5s;
+    width: 115%;
+}
+.submit:hover {
+    padding-left: 0px;
+    padding-right: 40px;
+    color: white;
+}
+.ball {
+    position: absolute;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.em;
+}
+.ball:hover {
+    left: calc(100%-55px);
+}
+#arrow {
+    padding-left: 20px;
+    font-size: 29px;
+}
+table{
+    display: flex;
+
+}
+input {
+    border: 0.5px solid rgb(214, 214, 214);
+    outline-color: transparent;
+}
+.sw {
+    font-size: 20px ;
+}
+.terms {
+    font-size: 10.2px;
 }
