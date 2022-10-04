@@ -164,3 +164,8 @@ input {
 img {
     margin-left:-50%;
 }
+@media screen and (max-width:1000px){
+    .modal {
+        display: none;
+    }
+}
