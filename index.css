@@ -17,6 +17,7 @@
     width: 50%;
     max-width: 200px;
     border-radius: 44px;
+    padding-right: 14px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .wallet-details {
