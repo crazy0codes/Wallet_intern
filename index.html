@@ -28,38 +28,39 @@
         <table>
             <th>
                 <tr>
-                    <td class="name">Name</td><td class="transaction">Transcation</td><td class="date">Details</td>
+                    <td class="name">Name</td><td class="transaction">Transcation</td><td class="status">status</td><td class="date">Details</td>
                 </tr>
             </th>
             <tr>
-                <td>Madhan</td><td>Completed</td><td>26/11/2003</td>
+                <td>Elon</td><td>Successful</td><td>Completed</td><td>26/11/2022</td>
             </tr>
             <tr>
-                <td>Madhan</td><td>lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque soluta illum corporis at officia, maiores, recusandae vitae laboriosam necessitatibus dolor reiciendis animi quasi, quas nam neque quo fuga nesciunt tempora? </td><td>26/11/2003</td>
+                <td>Madhan</td><td>Failed</td><td>incomplete</td><td>11/11/2022</td>
             </tr>
         </table>
     </div>
     <div class="modal" id="modal">
-        <form action="/index.js">
-            <label for="amount"></label>
-            Amount
+        <span class="modal-dismiss" onclick="dismiss()" role="button">x</span>
+        <form action="index.php" method="post">
+            <label for="amount">Amount</label><br>
             <input type="number" name="amount"><br>
-            <label for="bank"></label><br>
-            Bank
-            <input type="text" name="bank">
+            <label for="bank">Bank</label><br>
+            <input type="text" name="bank"><br><br>
+            <input type="submit">
         </form>
     </div>
+
+
     <script>
     function add() {
     let x = document.getElementById("btn-add");
     if (x.className === "wallet-add-icon") {
-      x.className += " disc";
       document.getElementById('modal').style.display = "block"
-    } else {
-      x.className = "wallet-add-icon";
-      document.getElementById('modal').style.display = "none"
     }
   }
+    function dismiss(){
+        document.getElementById('modal').style.display = "none"
+    }
     </script>
 </body>
 </html>
