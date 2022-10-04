@@ -7,5 +7,4 @@ function add() {
       x.className = "wallet-add-icon";
       document.getElementById('modal').style.display = "none"
     }
-  }
-  
+}
