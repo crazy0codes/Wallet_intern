@@ -86,3 +86,6 @@ table {
     /* Support for IE. */
     font-feature-settings: 'liga';
 }
+small {
+    font-size: 14px;
+}
