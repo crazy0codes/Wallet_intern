@@ -1,0 +1,96 @@
+.banner {
+    width: 100%;
+    height: 200px;
+    clear: both;
+    background-image: url("https://play-lh.googleusercontent.com/2LgRlrw6NIcbJB8_TK8qZ-3uUWPfqsX1kdbG-NFxsGChzBbtL2xhX0nDVzwbQLAQV6o");
+    background-position: center;
+    background-size: contain;
+}
+.ul-contents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    list-style: none;
+
+}
+.items {
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    text-align: center;
+    width: 80px;
+    height: 70px;
+    border: 0.4px solid rgb(203, 202, 202);
+}
+.items:hover {
+    box-shadow: rgb(160, 156, 156) 0.4px 0.4px 15px 0px;
+    border-radius: 5px;
+}
+.footer {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: end;
+    background-color: black;
+}
+.footer-items {
+    background-color: red;
+    margin : 10px;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+.header-ul {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.header-ul-search {
+    display: flex;
+    padding-bottom: 5px;
+}
+.header-ul-items{
+    margin-left: 20%;
+}
+.header {
+    background-color: rgb(162, 162, 162);
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    color: rgb(236, 236, 236);
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+a {
+    text-decoration: none;
+}
+.header-items:nth-child(2){
+    width: 50%;
+}
+input {
+    width: 98%;
+    height: 78%;
+    border-radius: 25px;
+}
+div>.name {
+    font-size: 12px;
+    font-weight: 530;
+}
