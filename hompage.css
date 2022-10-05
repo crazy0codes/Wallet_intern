@@ -43,13 +43,16 @@ ul {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    padding-top: 14px;
 }
 .header-ul-search {
     display: flex;
+    justify-content:left;
+    align-items: baseline;
     padding-bottom: 5px;
 }
 .header-ul-items{
-    margin-left: 20%;
+    margin-left: 10px;
 }
 .header {
     background-color: rgb(162, 162, 162);
@@ -88,6 +91,7 @@ input {
     width: 98%;
     height: 78%;
     border-radius: 25px;
+    padding-top: 5px;
 }
 div>.name {
     font-size: 12px;
