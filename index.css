@@ -169,3 +169,12 @@ img {
         display: none;
     }
 }
+.footer {
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: rgb(85, 207, 255);
+}
