@@ -30,10 +30,9 @@
     list-style: none;
     flex-wrap: wrap;
     justify-content: end;
-    background-color: black;
+    background-color: rgb(67, 230, 251);
 }
 .footer-items {
-    background-color: red;
     margin : 10px;
 }
 
@@ -93,4 +92,14 @@ input {
 div>.name {
     font-size: 12px;
     font-weight: 530;
+}
+body {
+
+}
+.footer {
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
