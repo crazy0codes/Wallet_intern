@@ -100,3 +100,6 @@ div>.name {
     display: flex;
     justify-content: space-around;
 }
+.phone {
+    padding-top: 3px;
+}
